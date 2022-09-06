@@ -1,0 +1,703 @@
+#title {
+  background-image: url("../img/carousel-1.jpg");
+  background-position: center;
+}
+
+#about {
+
+  align-items: center;
+}
+
+#contact {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+}
+
+#cta{
+    background-image: url("../img/bg.jpg");
+    color: #FFF;
+    background-position: center;
+
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  background-color: #FFFBF2;
+  color: #555;
+}
+
+.nav-buttons ul {
+  list-style: none;
+  margin-top: 35px;
+}
+/* toggler box */
+.toggler-btn{
+  width: 70px;
+  height:21px;
+  background-color:transparent;
+  border: 1px solid white;
+  border-radius: 10%;
+  cursor: pointer;
+  padding: 3%;
+  position: relative;
+  top: 30px;
+  right: -185px;
+  visibility: hidden;
+}
+.lines{
+  margin: 2px 0;
+  border: 2px solid #555;
+}
+/* ................. */
+nav h2 {
+  padding: 5%;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: white;
+}
+
+li a:hover {
+  transition: 1s;
+  text-decoration: none;
+  font-size: 1.25rem;
+  color: #DA9F5B;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2%;
+  position: relative;
+  z-index: 5;
+}
+
+.overlay-background {
+  width: 100%;
+  position: relative;
+  top: 10px;
+}
+
+.big-heading {
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+  display: inline-block;
+}
+
+.nav-buttons {
+  display: inline-block;
+}
+
+.main-text {
+  position: relative;
+  z-index: 5;
+  align-items: center;
+
+  width: 50%;
+  color: white;
+  margin: 0 25%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.main-text h1 {
+  font-size: 6rem;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 7px;
+  ;
+}
+
+.first-head {
+  font-size: 2rem;
+  color: #DA9F5B;
+}
+
+.second-head {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.title-container{
+  background: rgba(51, 33, 29, .8);
+}
+
+.container {
+  margin: 8%;
+
+}
+
+.span-line {
+  width: 112px;
+  height: 47px;
+  border-bottom: 2px solid #DA9F5B;
+  transform: rotate(90deg);
+  overflow: hidden;
+  margin-left: 46.5%;
+  position: relative;
+}
+
+.about-heading h3 {
+  margin-top: 50px;
+  color: #DA9F5B;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  letter-spacing: 5px;
+}
+
+.about-heading h2 {
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin: 0;
+  color: #33211D;
+  margin-bottom: 2.5%;
+}
+
+.card-container {
+  display: flex;
+  flex-basis: 0;
+  padding: 0 2%;
+  color: #33211D;
+}
+
+.card-1, .card-2, .card-3 {
+  text-align: left;
+  min-width: 300px;
+  max-width: calc(100%/3);
+}
+
+.card-2 {
+  position: relative;
+  min-height: 500px;
+  overflow: hidden;
+}
+
+.card-container h2 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.card-container h3, .card-container li {
+  font-weight: lighter;
+  font-size: 1.25rem;
+}
+
+.card-container p {
+  color: #555;
+  font-weight: lighter;
+  line-height: 1.25;
+}
+
+.card1-btn {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: #33211D;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+.card1-btn:hover {
+  width: 150px;
+  height: 50px;
+  color: white;
+  background-color: #DA9F5B;
+  border-radius: 30%;
+  cursor: pointer;
+}
+
+.card2-btn {
+  width: 150px;
+  height: 50px;
+  color: #33211D;
+  background-color: #DA9F5B;
+  border-radius: 30%;
+  cursor: pointer;
+  position: relative;
+  top: 22px;
+}
+
+.card2-btn:hover {
+  width: 150px;
+  height: 50px;
+  color: #33211D;
+  background-color: #DA9F5B;
+  border-radius: 30%;
+  cursor: pointer;
+  position: relative;
+  top: 22px;
+  box-shadow: 2px 2px 2px 2px black;
+}
+.card-2 img{
+  height: 450px;
+  width: 350px;
+}
+
+/* service section */
+.services-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.SERVICES {
+  display: flex;
+}
+
+.SERVICES-images {
+  width: 120%;
+}
+
+.SERVICES-description {
+  text-align: left;
+}
+
+.SERVICES-description::before {
+  content: "";
+  position: absolute;
+  border: 20px solid #DA9F5B;
+  border-radius: 100%;
+}
+
+.SERVICES-description h3 {
+  color: black;
+  margin-left: 50px;
+  font-weight: 400;
+}
+
+.service-div {
+  display: flex;
+  margin: 2.5% 0;
+}
+
+/* div for images */
+.SERVICES-images {
+  padding: 0 2%;
+}
+
+/*  images */
+.SERVICES-images img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* .................... */
+/* contact section */
+.container-contact{
+    background: rgba(51, 33, 29, .8);
+}
+#contact div {
+  margin: 8% 0;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#contact h1 {
+  color: #DA9F5B;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 1% 0;
+}
+
+#contact h2 {
+  color: #FFF;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1% 0;
+}
+
+#contact h3 {
+  color: #FFF;
+  font-size: 2rem;
+  font-weight: lighter;
+  margin: 3% 0;
+}
+
+#contact img {
+  width: 100%;
+}
+
+#contact input {
+  width: 200px;
+  height: 20px;
+  padding: 20px;
+  border: 0;
+}
+
+#contact button {
+  position: relative;
+  right: 4px;
+  height: 60px;
+  padding: 20px;
+  border: 0;
+  background-color: #DA9F5B;
+  cursor: pointer;
+}
+
+#contact button:hover {
+  position: relative;
+  right: 4px;
+  height: 60px;
+  padding: 20px;
+  border: 0;
+  transition: 0.5s;
+  background-color: #33211D;
+  color: #DA9F5B;
+  cursor: pointer;
+}
+
+/* ............... */
+/* menu section  */
+.row {
+  display: flex;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  display: flex;
+  text-align: left;
+}
+
+.menu-item img {
+  width: 100%;
+  border-radius: 100%;
+  padding-right: 80px;
+}
+
+.menu-item h2 {
+  font-size: 2.5rem;
+  color: black;
+  padding-left: 40px;
+}
+
+.menu-discription {
+  padding: 0 10px;
+}
+
+.img1::before {
+  content: "$5";
+  position: relative;
+  right: 80px;
+  top: 25px;
+  border: 20px solid #DA9F5B;
+  border-radius: 100%;
+  background-color: #DA9F5B;
+  color: black;
+}
+
+.img2::before {
+  content: "$7";
+  position: relative;
+  right: 80px;
+  top: 25px;
+  border: 20px solid #DA9F5B;
+  border-radius: 100%;
+  background-color: #DA9F5B;
+  color: black;
+}
+
+.img3::before {
+  content: "$9";
+  position: relative;
+  right: 80px;
+  top: 25px;
+  border: 20px solid #DA9F5B;
+  border-radius: 100%;
+  background-color: #DA9F5B;
+  color: black;
+}
+
+/* .......................... */
+/* reservation section */
+.reservation {
+  color: #FFF;
+  background-image: url("bg.jpg");
+  background-position: center;
+}
+.container-reservation{
+      background: rgba(51, 33, 29, .8);
+}
+.reservation-description {
+  margin-left: 10%;
+  text-align: left;
+}
+
+.reservation-description li {
+  display: block;
+}
+
+.reservation img {
+  width: 100%;
+}
+
+.reservation h1 {
+  color: #DA9F5B;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 1% 0;
+}
+
+.reservation h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1% 0;
+}
+
+.reservation-table {
+  height: 100%;
+  padding: 0 100px;
+  margin-right: 20px;
+  background: rgba(51, 33, 29, .8);
+}
+
+.reservation input {
+  border: 1px solid #DA9F5B;
+  width: 350px;
+  height: 0;
+  color: #555;
+  background-color: #33211D;
+  padding: 1.5rem;
+  margin: 5px 0;
+}
+
+.reservation button {
+  width: 398px;
+  height: 48px;
+  border: none;
+  color: #33211D;
+  background-color: #DA9F5B;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.reservation button:hover {
+  width: 398px;
+  height: 48px;
+  border: none;
+  color: #FFF;
+  background-color: #DA9F5B;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+/* ......................... */
+/* testimonial section */
+#testimonial .row {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0;
+}
+
+.testimonial-box {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.testimonial-box img {
+  border-radius: 100%;
+}
+
+.testimonial-description {
+  margin-left: 30px;
+}
+.testimonial-box h3{
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/* ........................ */
+/* call in action section */
+.container-cta{
+  background: rgba(51, 33, 29, .8);
+  padding: 0 5%;
+  padding: 3% 0;
+  text-align: left;
+}
+.box{
+  width: calc(84%/4);
+  margin:0 2%;
+}
+.box h2{
+  letter-spacing: 5px;
+}
+#cta input {
+  width: 52%;
+  height: 20px;
+  padding: 20px;
+  border: 0;
+}
+
+#cta button {
+  position: relative;
+  right: 4px;
+  height: 60px;
+  padding: 20px;
+  border: 0;
+  background-color: #DA9F5B;
+  cursor: pointer;
+}
+
+#cta button:hover {
+  position: relative;
+  right: 4px;
+  height: 60px;
+  padding: 20px;
+  border: 0;
+  transition: 0.5s;
+  background-color: #33211D;
+  color: #DA9F5B;
+  cursor: pointer;
+}
+.row-cta{
+  display: flex;
+  padding-bottom: 3%;
+}
+footer{
+  text-align: center;
+  margin-top: 3%;
+}
+footer a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #DA9F5B;
+}
+footer a:hover{
+  text-decoration: underline;
+}
+.fontasome-icons i{
+  margin: 0 2px;
+  border: 1px solid white;
+  padding: 3%;
+  cursor: pointer;
+}
+/* ......................... */
+/* responsive selections */
+@media only screen and (max-width: 1000px) {
+  .span-line {
+    top: 15px;
+  }
+}
+
+@media (max-width:768px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .main-text h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+    letter-spacing: 2px;
+    ;
+  }
+
+  .card-1, .card-2, .card-3 {
+    max-width: 100%;
+  }
+
+  .service-div {
+    flex-direction: column;
+  }
+
+  .SERVICES {
+    display: block;
+  }
+
+  .SERVICES-images {
+    width: 100%;
+  }
+
+  #contact h1 {
+    font-size: 3rem;
+  }
+
+  #contact h2 {
+    font-size: 2rem;
+  }
+
+  #contact h3 {
+    font-size: 1rem;
+  }
+  .nav-buttons{
+    visibility: hidden;
+  }
+  .toggler-btn{
+    visibility: visible;
+  }
+}
+
+@media (max-width:1173px) {
+  .row {
+    flex-direction: column;
+  }
+
+  .menu-item h2 {
+    font-size: 2rem;
+    color: black;
+    padding-left: 20px;
+  }
+
+  .img1::before {
+    right: 55px;
+    border: 10px solid #DA9F5B;
+  }
+
+  .img2::before {
+    right: 55px;
+    border: 10px solid #DA9F5B;
+  }
+
+  .img3::before {
+    right: 55px;
+    border: 10px solid #DA9F5B;
+  }
+
+  .reservation h1 {
+    font-size: 3rem;
+  }
+
+  .reservation h2 {
+    font-size: 1.5rem;
+  }
+
+  .reservation-table {
+    margin-right: 0;
+  }
+
+  .reservation input {
+    width: 150px;
+  }
+
+  .reservation button {
+    width: 198px;
+  }
+}
+@media (max-width:992px) {
+  .row-cta{
+    flex-direction: column;
+    text-align: center;
+  }
+  .box{
+    width: auto;
+  }
+
+}
+/* ......................... */
